@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-for="(track, index) in tracks" :key="item.id" :class="{ 'mt3': index !== 0  }">
+    <div v-for="(track, index) in tracks" :class="{ 'mt3': index !== 0  }">
       <track-component
               :time-ago="track.timeAgo"
               :label="track.label"
