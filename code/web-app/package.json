@@ -8,15 +8,16 @@
     "build": "vbuild"
   },
   "dependencies": {
-    "apollo-client": "^0.8.3",
+    "apollo-client": "^1.0.0-rc.6",
     "asteroid": "^2.0.3",
+    "css-loader": "^0.27.3",
     "graphql-tag": "^1.2.4",
-    "node-sass": "^4.1.1",
+    "node-sass": "^4.5.1",
+    "postcss-loader": "^1.3.3",
     "sass-loader": "^4.1.1",
     "tachyons": "^4.6.1",
     "vue": "^2.2.4",
-    "vue-apollo": "^1.3.1",
-    "vue-cli": "^2.8.1",
+    "vue-apollo": "^1.4.1",
     "vue-router": "^2.1.1",
     "vuex": "^2.1.1"
   },
@@ -25,6 +26,7 @@
     "vue-loader": "^11.0",
     "vue-play": "^2.2.0",
     "vue-play-cli": "^1.0.4",
-    "vue-template-compiler": "^2.2.4"
+    "vue-template-compiler": "^2.2.4",
+    "webpack": "^2.1"
   }
 }
