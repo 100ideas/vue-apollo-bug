@@ -14,6 +14,7 @@ mockSchema(schema)
 
 const whitelist = [
     'http://localhost:4000', // allow vue app to connect to the server
+    'http://localhost:5000', // node serve defaults to 5000
 ]
 
 const corsOptions = {
